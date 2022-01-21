@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Cancelamento</title>
+
+<style>
+.campo{
+    color:#DB7093;
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 40em;
+   margin-left: 30%;
+   transform: translateY(-50%,-50%);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.indicacao{
+    color:#DB7093;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15em;
+    margin-left: 30%;
+    transform: translateY(-50%,-50%);
+}
+#indicacao{
+    color: #DB7093;
+    font-size: 14px;
+    cursor: pointer;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+}
+.botao{
+    color: #DB7093;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90px;
+    margin-left: 30%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(30, 15, 32);
+    height: 25px;
+    cursor: pointer;
+}
+body{
+   background-color:  #E0E0F8;
+}
+</style>
+</head>
+<body>
+    <h1 class="titulo"><strong>Você cancelou a inscrição desses e-mails.</strong> </h1>
+    <div class="campo">
+<label>  <strong>Por favor, tome um momento e deixe-nos saber por que você cancelou a inscrição.</strong></label>
+<label>
+<input type="radio" name="devweb" value="motivo1" checked required> Não desejo mais receber esses e-mails 
+</label>
+<label>
+    <input type="radio" name="devweb" value="motivo2"> Os e-mails não são mais para o conteúdo para o qual me inscrevi originalmente
+</label>
+<label>
+    <input type="radio" name="devweb" value="motivo3"> Eu nunca dei minha permissão para receber esses e-mails, denuncie isso como abuso
+</label>
+<label>
+    <input type="radio" name="devweb" value="motivo4"> Cancelei a inscrição por acidente!
+</label>
+<label>
+    <input type="radio" name="devweb" value="motivo5"> Por favor, me adicione de volta a esta lista 
+</label>
+<label> 
+    <input type="radio" name="devweb" value="motivo6">  De outros
+</label> <!--DEVWEB A PESSOA SO CONSEGUE MARCAR UMA OPÇÃO-->
+    </div>
+    
+    <div class="indicacao">
+        <label><strong>Indicaria para um amigo?</strong></label>
+        <select id="indicacao">
+            <option selected disabled value="">Selecione</option>
+            <option>SIM</option>
+            <option>NÃO</option>
+        </select>
+    </div>
+    <br>
+    <button class="botao"><strong>Concluído</strong></button>    
+    
+</body>
+</html>
+
+
+
+ 
+  
+   
+    
+   
